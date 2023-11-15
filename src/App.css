@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+}
+
+.item {
+  width: 30%;
+  background-color: #41454d;
+  border-radius: 15px;
+  margin: 1%;
+  margin-top: 0;
+  padding: 0;
+}
